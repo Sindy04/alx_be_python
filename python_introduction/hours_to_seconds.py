@@ -6,5 +6,6 @@ seconds = 3600
 print(2 hours)
 
 seconds = 2 * 3600
+seconds = 3600 * 2
 
 2 hours(s) is 7200 seconds
