@@ -9,6 +9,6 @@ Subtraction = number1 - number2
 print(Subtraction)
 
 #calculate the product
-Produc t= number1 * number
+Product = number1 * number
 print(Product)
 
