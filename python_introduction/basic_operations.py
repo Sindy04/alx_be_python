@@ -1,8 +1,8 @@
 number1 = 10
 number2 = 5
 #calculate the sum
-sum = number1 + number2
-print(sum)
+Addition = number1 + number2
+print(Addition)
 
 #calculate the difference
 Subtraction = number1 - number2
