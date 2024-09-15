@@ -15,4 +15,4 @@ print(Product)
 #outcome
 Addition = input("Addition of 10 and 5 is 15")
 Subtraction - input("Subtraction of 10 and 5 is 5")
-Multiplication = (" Multiplication of 10 and 5 is 50)
+Multiplication = input("Multiplication of 10 and 5 is 50")
