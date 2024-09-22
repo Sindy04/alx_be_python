@@ -1,7 +1,8 @@
-print("Enter a number to see its multiplication table: 5")
-X=5
-for Y in range(1,11):
-  print("X*Y")
-  
+"Asks the user for a number and prints its multiplication table"
+
+number = int(input("Enter a number to see its multiplication table:"))
+for i in range(1,11):
+ print(number,'x',i, '=', number*i)
+
   
   
