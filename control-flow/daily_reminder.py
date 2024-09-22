@@ -1,9 +1,13 @@
-# Prompt 
-task = input("Enter your task:")
-priority = input("priority (high/medium/low):").lower()
-time_bound = input("is time_bound (yes/no):").lower()
+print("Enter your task: Finish project report")
 
-#Intialize
+# Prompt user input
+task = input("Enter your task: ")
+priority = input("priority (high/medium/low): ").lower()
+time_bound = input("is time_bound (yes/no): ").lower()
+
+#Intialize the reminder message
+reminder_message= "Reminder: "
+ 
 if time_bound == "yes":
   reminder = f"Reminder: '{task}' is a"
 else:
@@ -15,6 +19,9 @@ match priority:
       reminder += "high priority task"
     case "medium"
       reminder += "medium priority task"
+  case "low":
+       reminder += "low priority task"
+  case _: = "Invalid priority level."
   
   
 
