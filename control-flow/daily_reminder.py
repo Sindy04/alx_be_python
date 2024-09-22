@@ -1,17 +1,17 @@
 print("Enter your task: Finish project report")
 
 # Prompt user input
-Task = input("Enter your task: ")
-Priority = input("priority (high/medium/low): ").lower()
-Time_bound = input("is time_bound (yes/no): ").lower()
+Task = input("Enter your Task: ")
+Priority = input("Priority (high/medium/low): ").lower()
+Time_bound = input("is Time_bound (yes/no): ").lower()
 
 #Intialize the reminder message
 reminder_message= "Reminder: "
  
-if time_bound == "yes":
-  reminder = f"Reminder: '{task}' is a"
+if Time_bound == "yes":
+  reminder = f"Reminder: '{Task}' is a"
 else:
-  reminder =f"Note: '{task} is a'
+  reminder =f"Note: '{Task} is a'
 
 #Process the task based on priority
 match priority:
