@@ -3,7 +3,7 @@ print("Enter your task: Finish project report")
 # Prompt user input
 Task = input("Enter your Task: ")
 Priority = input("Priority (high/medium/low): ").lower()
-Time_bound = input("is Time_bound (yes/no): ").lower()
+Time_bound = input("Time_bound (yes/no): ").lower()
 
 #Intialize the reminder message
 reminder_message= "Reminder: "
