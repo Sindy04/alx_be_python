@@ -3,10 +3,10 @@ task = input("Enter your task: ")
 # Prompt for the task’s priority
 priority = input("priority (high/medium/low): ").lower()
 # Ask if the task is time-bound
-time-bound = input("is time-bound (yes/no):").lower()
+time_bound = input("is time_bound (yes/no):").lower()
 
 #Intialize
-if time-bound == "yes":
+if time_bound == "yes":
   reminder = f"Reminder: '{task}' is a"
 else:
   reminder =f"Note: '{task} is a'
