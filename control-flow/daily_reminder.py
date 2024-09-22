@@ -1,8 +1,6 @@
-# Prompt the user for a task description
+# Prompt 
 task = input("Enter your task: ")
-# Prompt for the task’s priority
 priority = input("priority (high/medium/low): ").lower()
-# Ask if the task is time-bound
 time_bound = input("is time_bound (yes/no):").lower()
 
 #Intialize
