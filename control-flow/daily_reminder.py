@@ -22,6 +22,15 @@ match priority:
   case "low":
        reminder += "low priority task"
   case _: = "Invalid priority level."
+
+  #Modify the reminder
+ if time_bound == "yes":
+      reminder += " that requires immediate attention today!"
+else:
+reminder += " Condsider completing it when you have free time. "
+#print the reminder
+print("reminder")
+ 
   
   
 
