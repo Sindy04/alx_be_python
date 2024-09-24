@@ -14,3 +14,9 @@ def main():
     display_menu()
     choice = input("Enter your choice:")
 
+    if choice == '1':
+      #Add an item to the shopping list
+      item = input("Enter item name:")
+      shopping_list.append(item)
+      print(f"Added '{item}' to the shopping list.")
+
