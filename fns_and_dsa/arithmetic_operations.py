@@ -19,6 +19,13 @@ def perform_operation(num1: float, num2: float, operation: str) -> float or str:
     return num1 * num2
   case "divide":
     if num2! = 0
+       return num1 / num2
+    else:
+      return "Error: Division by zero"
+   case _:
+      return "Error: Invalid operation"
+    
+
       
     
                                                   
