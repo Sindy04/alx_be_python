@@ -26,6 +26,11 @@ if time_bound == "yes":
       reminder +=" .Complete it as soon as possible."
    print("Reminder:",reminder)
 
+def main():
+  "Gets task details and provides a customized reminder."
+  task, priority, time_bound = get_task_details()
+  Provide_reminder(task,priority,time_bound)
+
 
 
   
