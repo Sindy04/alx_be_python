@@ -1,5 +1,6 @@
 def perform_operation(num1: float, num2: float, operation: str) -> float or str:
-  "Performs basic arithmetic operations."
+ """
+  Performs basic arithmetic operations.
 
  Args:
    num1 (float): The first number.
@@ -8,9 +9,16 @@ def perform_operation(num1: float, num2: float, operation: str) -> float or str:
 
  Returns:
  float or str: The result of the arithmetic operation or an error message for division by zero.
-
+"""
  match operation:
-   case "add":
-      return num1 + num2
+  case "add":
+    return num1 + num2
+  case "subtract":
+    return num1 - num2
+  case "multiply":
+    return num1 * num2
+  case "divide":
+    if num2! = 0
       
+    
                                                   
