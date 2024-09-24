@@ -19,4 +19,8 @@ def main():
       item = input("Enter item name:")
       shopping_list.append(item)
       print(f"Added '{item}' to the shopping list.")
-
+    elif choice =='2':
+      #Remove an item from the shopping list
+      item = input =("Enter item name to remove:")
+      if item in shopping_list:
+        
