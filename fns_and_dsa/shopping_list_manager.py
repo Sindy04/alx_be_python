@@ -17,22 +17,34 @@ def main():
     if choice == '1':
       #Add an item to the shopping list
       item = input("Enter item name:")
-       item = input("Enter the item to add")
       shopping_list.append(item)
       print(f"Added '{item}' to the shopping list.")
       
-    elif choice =='2':
+    elif choice == '2'
+       #Add an item to the shopping list
+     item = input("Enter the item to add")
+      shopping_list.append(item)
+      print(f"Added '{item}' to the shopping list.")
+    
+    elif choice =='3':
       #Remove an item from the shopping list
       item = input =("Enter item name to remove:")
       if item in shopping_list:
         shopping_list.remove(item)
-        print("\nShopping List:")
+        print(f"Removed '{item}' from the shopping list.")
+      else:
+        print(f"'{item}' not found in the shopping list.")
+        
+    elif choice =='4'
+       #Display the shopping list
+        if shopping_list:
+        print("Shopping List:")
         for i, item in enumerate(shopping_list, start=1):
           print(f"{i}. {item}")
       else:
         print("Shopping list is empty.")
 
-    elif choice == '4':
+    elif choice == '5':
       #Exit the program
       print("Goodbye!)
       break
