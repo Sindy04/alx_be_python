@@ -16,16 +16,11 @@ def main():
    
     if choice == '1':
       #Add an item to the shopping list
-      item = input("Enter item name:")
+      item = input("Enter item to add:")
       shopping_list.append(item)
       print(f"Added '{item}' to the shopping list.")
-      
-    elif choice == '2':
-       #Add an item to the shopping list
-     item = input("Enter the item to add")
-      print(f"Add '{item}' to the shopping list.")
     
-    elif choice =='3':
+    elif choice =='2':
       #Remove an item from the shopping list
       item = input =("Enter item name to remove:")
       if item in shopping_list:
@@ -34,7 +29,7 @@ def main():
       else:
         print(f"'{item}' not found in the shopping list.")
         
-    elif choice =='4':
+    elif choice =='3':
        #Display the shopping list
         if shopping_list:
         print("Shopping List:")
@@ -43,7 +38,7 @@ def main():
       else:
         print("Shopping list is empty.")
 
-    elif choice == '5':
+    elif choice == '4':
       #Exit the program
       print("Goodbye!)
       break
