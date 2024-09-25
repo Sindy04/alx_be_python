@@ -1,7 +1,6 @@
-def perform_operation(num1:float,num2:float,operation: str)-> float or str:
- """
-  Performs basic arithmetic operations.
-
+def perform_operation(num1:float,num2:float,operation: str):
+ 
+""""
  Args:
    num1 (float): The first number.
    num2 (float): The second number.
@@ -9,7 +8,7 @@ def perform_operation(num1:float,num2:float,operation: str)-> float or str:
 
  Returns:
  float or str: The result of the arithmetic operation or an error message for division by zero.
-"""
+""""
  match operation:
   case "add":
     return num1 + num2
