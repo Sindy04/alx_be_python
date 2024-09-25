@@ -20,7 +20,7 @@ def main():
       shopping_list.append(item)
       print(f"Added '{item}' to the shopping list.")
       
-    elif choice == '2'
+    elif choice == '2':
        #Add an item to the shopping list
      item = input("Enter the item to add")
       shopping_list.append(item)
@@ -35,7 +35,7 @@ def main():
       else:
         print(f"'{item}' not found in the shopping list.")
         
-    elif choice =='4'
+    elif choice =='4':
        #Display the shopping list
         if shopping_list:
         print("Shopping List:")
