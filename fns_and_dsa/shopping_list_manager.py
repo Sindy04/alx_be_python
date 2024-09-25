@@ -23,4 +23,21 @@ def main():
       #Remove an item from the shopping list
       item = input =("Enter item name to remove:")
       if item in shopping_list:
+        shopping_list.remove(item)
+        print("\nShopping List:")
+        for i, item in enumerate(shopping_list, start=1):
+          print(f"{i}. {item}")
+      else:
+        print("Shopping list is empty.")
+
+    elif choice == '4':
+      #Exit the program
+      print("Goodbye!)
+      break
+
+
+if _name_ == "_main_":
+      main()
+            
+    
         
