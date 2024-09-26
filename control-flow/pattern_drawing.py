@@ -18,6 +18,9 @@ def main():
        draw_pattern(size) break
       expect ValueError:
       print("Invalid input. Please enter a positive integer.")
+
+if _name_ == "_main_"
+   main()
       
       
       
