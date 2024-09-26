@@ -19,7 +19,7 @@ def main():
       expect ValueError:
       print("Invalid input. Please enter a positive integer.")
 
-print(f"['Pattern Size:{size}']")
+      print(f"['Pattern Size:{size}']")
 
 if _name_ == "_main_"
    main()
