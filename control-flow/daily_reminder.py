@@ -1,11 +1,11 @@
-
+# Prompt for a Single Task
 task = input("Enter your task: ")
 priority = input("priority (high/medium/low): ").strip().lower()
 time_bound = input(" is it time-bound? (yes/no):").strip().lower()
-return task, priority, time_bound
 
-def provide_reminder(task, priority,time_bound):
-  "Provides a customizes reminder based on priority and time sensitivity."
+# Intitialize the reminder message
+reminder_message = "Reminder"
+
   match priority:
     case "high":
       reminder = f"'{task}' is a high priority task"
