@@ -9,7 +9,7 @@ class BankAccount:
   def _int_(self,initial_balance=0):
     Intializes a BankAccount object.
       Args:
-    intial_balance(float, optional): The initial balance. Defaults to 0
+    intial_balance(): The initial balance. Defaults to 0
     """
     self.account_balance = initial_balance
     
