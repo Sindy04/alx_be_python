@@ -1,4 +1,5 @@
 class BankAccount:
+  def __int__(balance,deposit,withdraw):
   """
   A simple bank account class.
 
