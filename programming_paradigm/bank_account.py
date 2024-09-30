@@ -1,15 +1,18 @@
 class BankAccount:
-  """A simple bank account class.
+  """
+  A simple bank account class.
 
   Attributes:
   account_balance(float): The current balance in the account.
   """
+  
   def _int_(self,initial_balance=0):
     Intializes a BankAccount object.
       Args:
     intial_balance(float, optional): The initial balance. Defaults to 0
     """
     self.account_balance = initial_balance
+    
   def deposit(self, amount):
     """
      Deposits a specific amount into the account.
