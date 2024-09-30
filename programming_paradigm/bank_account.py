@@ -1,9 +1,5 @@
 class BankAccount:
-  def __int__(self,balance,deposit,withdraw):
-    self.balance = balance
-    self.deposit = deposit
-    self.withdraw = withdraw
-    
+ 
   """
   A simple bank account class.
 
@@ -11,7 +7,10 @@ class BankAccount:
   account_balance (float): The current balance in the account.
   """
   
-  def _int_(self,initial_balance=0):
+  def __int__(self,initial_balance,deposit,withdraw):
+    self.initial_balance = initial_balance
+    self.deposit = deposit
+    self.withdraw = withdraw
     Intializes a BankAccount object.
       Args:
     intial_balance(): The initial balance. Defaults to 0
