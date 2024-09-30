@@ -3,7 +3,7 @@ class BankAccount:
   A simple bank account class.
 
   Attributes:
-  account_balance(float): The current balance in the account.
+  account_balance (float): The current balance in the account.
   """
   
   def _int_(self,initial_balance=0):
