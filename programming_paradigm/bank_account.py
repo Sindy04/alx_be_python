@@ -41,6 +41,10 @@ class BankAccount:
       Prints the current account balance.
       """
       print(f"Current Balance: ${self.acount_balance: 2f}")
+      #Example usage:
+    if _name_ == "_main_":
+      account = BankAccount(100)
+      acount.display_balance()
       
       
     
