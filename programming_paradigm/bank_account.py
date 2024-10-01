@@ -8,7 +8,7 @@ class BankAccount:
   """
   
   def __int__(self,initial_balance,deposit,withdraw):
-    self.initial_balance = initial_balance
+    self.initial_balance = account_balance
     self.deposit = deposit
     self.withdraw = withdraw
     Intializes a BankAccount object.
