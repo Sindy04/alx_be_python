@@ -8,7 +8,7 @@ class BankAccount:
  
     Intializes a BankAccount object.
       Args:
-    def __int__(self.account_balance): The initial balance. Defaults to 0
+    def __init__(self.account_balance): The initial balance. Defaults to 0
     """
     self.account_balance = initial_balance
    
