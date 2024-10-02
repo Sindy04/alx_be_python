@@ -17,5 +17,8 @@ try:
     return f"The result of the division is {result:.2f}"
 except VaplueError:
   return "Error: Please enter numeric values only."
-except 
+except ZeroDivisionError:
+  return"Error: Cannot divide by Zero."
+except Exception as e:
+  return f"An unexpected error occurred: {str(e)}"
     
