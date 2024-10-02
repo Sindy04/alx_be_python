@@ -18,4 +18,26 @@ class Libriary:
   def __init__(self):
     self.books =[]
 
-  def 
+  def add_book(self,book):
+    self._books.append(book)
+
+  def check_out_book(self,title):
+    for book in self._books:
+      if book.title == title:
+        if book.is_available:
+          book.check_out()
+          print(f"'{title}'checked out successfully.")
+        else:
+          print(f"'{title}' is already checked out.")
+          return
+          print(f"'{title}' not found in library.")
+
+      def return_book(self,title):
+        for book in self._books:
+          if book.title == title:
+            if not book.is_available:
+              book.return_book()
+              print(f"'{title}' returned successfully.")
+              print(f"'{title}' is already available.")
+              return
+              print(f"'{title}' returned successfully.")
