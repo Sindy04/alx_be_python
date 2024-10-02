@@ -18,7 +18,7 @@ class Library:
   def __init__(self):
     self.books =[]
 
-  def add_book(self,book):
+  def book(self,book):
     self._books.append(book)
 
   def check_out_book(self,title):
