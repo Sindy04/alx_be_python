@@ -40,4 +40,11 @@ class Libriary:
               print(f"'{title}' returned successfully.")
               print(f"'{title}' is already available.")
               return
-              print(f"'{title}' returned successfully.")
+              print(f"'{title}' not found in library.")
+
+            def list_available_books(self):
+            available _books = [boo.title for book in self._books if book.is _available]
+            print9"Available books.")
+            for book in available_books:
+              print(book)
+            else:
