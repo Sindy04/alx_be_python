@@ -16,9 +16,9 @@ def is_available(self):
 
 class Library:
   def __init__(self):
-    self.books =[]
+    self.books =[] #initialize empty list of books
 
-  def book(self,book):
+  def add_book(self,book):
     self._books.append(book)
 
   def check_out_book(self,title):
