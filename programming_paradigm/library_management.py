@@ -47,4 +47,19 @@ class Library:
             print9"Available books.")
             for book in available_books:
               print(book)
-            else:
+
+
+
+from libary_management import Book, Library
+
+def main():
+  #Setup a small library
+  library = Library()
+  library.add_book(Book(Brave New World","Aldous Huxley"))
+  library.add_book(Book("1984","George Orwell"))
+
+  #Intial list of available books
+   print("Available books after setup.")
+   library.list_availabe_books()
+
+  
