@@ -14,7 +14,7 @@ def return_book(self):
 def is_available(self):
   return not self._is_checked_out
 
-class Libriary:
+class Library:
   def __init__(self):
     self.books =[]
 
