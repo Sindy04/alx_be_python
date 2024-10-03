@@ -7,6 +7,8 @@ def setUp(self):
   self.calculator = SimpleCalculator()
 
 #Test addition
+def test_add(self):
+  self.assertEqual(self.calculator.add(0,0),0)
 def test_add_positive_numbers(self):
   self.assertEqual(self.calculator.add(2, 3), 5)
 
