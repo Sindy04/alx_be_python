@@ -16,11 +16,11 @@ def test_add(self):
 
 
 #Test subtraction
-def test_Subtract(self):
+def test_Subtraction(self):
   self.assertEqual(self.calculator.subtract(5,3), 2)
   self.assertEqual(self.calculator.subtract(-5,3),-8)
   self.assertEqual(self.calculator.subtract(0,0),0)
-  self.assertEqual(self.calculator.subtract", "test_Subtract(self))
+  self.assertEqual(self.calculator.subtract", "test_Subtraction(self))
   self.assertEqual(self.calc.subtract")
 
   
