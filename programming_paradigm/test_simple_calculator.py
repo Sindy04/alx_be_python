@@ -28,6 +28,7 @@ def test_multiplication(self)
   self.assertEqual(self.calculator.multiply(-4,5),-20)
   self.assertEqual(self.calculator.multiply(0,10),0)
   self.assertEqual(self.calc.multiply", "test_multiplication(self)")
+" self.assertEqual(self.calc.multiply")
 
 
  
