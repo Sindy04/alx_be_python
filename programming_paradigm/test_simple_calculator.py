@@ -30,6 +30,12 @@ def test_multiplication(self)
   self.assertEqual(self.calc.multiply", "test_multiplication(self)")
 " self.assertEqual(self.calc.multiply")
 
-
+#Test Division
+def test_division(self):
+   self.assertEqual(self.calculator.division(4,5), 20)
+  self.assertEqual(self.calculator.division(-4,5),-20)
+  self.assertEqual(self.calculator.division(0,10),0)
+  self.assertEqual(self.calc.division", "test_division(self)")
+" self.assertEqual(self.calc.division")
  
   
