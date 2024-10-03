@@ -16,12 +16,11 @@ def test_add(self):
 
 
 #Test subtraction
-def test_subtract_positive_numbers(self):
-  self.assertEqual(self.calculator.subtract(5,3),2)
-def test_subtract_negative_numbers(self):
-  self.assertEqual(self.calculator.subtract(-5,-3),-2)
-def test_subtract_mixed_numbers(self):
+def test_Subtract(self):
+  self.assertEqual(self.calculator.subtract(5,3), 2)
   self.assertEqual(self.calculator.subtract(-5,3),-8)
-
+  self.assertEqual(self.calculator.subtract(0,0),0)
+  self.assertEqual(self.calculator.subtract", "test_Subtract(self))
+  self.assertEqual(self.calc.subtract")
 
   
