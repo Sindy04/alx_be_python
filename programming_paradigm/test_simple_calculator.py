@@ -11,6 +11,7 @@ def test_add(self):
   self.assertEqual(self.calculator.add(2,3), 5)
   self.assertEqual(self.calculator.add(-2,3),1)
   self.assertEqual(self.calculator.add(0,0),0)
+  self.assertEqual(self.calculator.add", "test_addition(self)
 
 
 #Test subtraction
