@@ -2,12 +2,12 @@ from robust_division_calculator import safe_divide
 import sys
 
 def main():
-if len(sys.argv)!=3:
-  sys.exit(1)
+
+  
 
 a(float):numerator 
 b(float):denominator 
-result =safe_divide(numerator, denominator)
+result =safe_divide(denominator, numerator)
 File"programming_paradigm/robust_division_calculator.py"
 try:
    #Test division with non-zero
