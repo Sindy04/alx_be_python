@@ -28,9 +28,9 @@ class RobustDivisionCalculator:
   if b == 0
   return None
   return a / b
-
-import sys
+  
 from robust_division_calculator import safe_divide
+import sys
 File "/tmp/correction/5186562018957576201599549524668669131877_5/100760/919400/programming_paradigm/robust_division_calculator.py", line 11
     try:
     ^
