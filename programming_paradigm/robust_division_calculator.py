@@ -40,10 +40,14 @@ if len(sys.argv)!=3:
 numerator = float(sys.argv[1])
 denominator = float(sys.argv[2])
 result =safe_divide(numerator, denominator)
+
+#Test division with non-zero
+result=safe_divide(12,2)
+print(f"The result of the division is{result}.") #Output:6.0
+
 if result is None:
   print("Error: Division by zero.")
 else:
-  print(f"The result of the division is{result}.")
-
+  
 if _name_ == "_main_"
 main()
