@@ -2,6 +2,11 @@ import sys
 from robust_division_calculator import safe_divide
 
 def main():
+#Test division with non_zero divide
+   result = calculator.safe_divide(12,2)
+  print("Result:",result) # Output: 6.0
+
+  
   calculator = RobustDivisionCalculator()
   result = calculator.safe_divide(12,2)
   print(result) # Output: 6.0
