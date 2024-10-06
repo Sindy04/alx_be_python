@@ -29,22 +29,19 @@ class RobustDivisionCalculator:
   return None
   return a / b
 
-from robust_division_calculator import safe_divide
 import sys
+from robust_division_calculator import safe_divide
 
 def main():
-if len(sys.argv)!=3:
-  sys.exit(1)
+    if len(sys.argv) != 3:
+        print("Usage: python main.py <numerator> <denominator>")
+        sys.exit(1)
 
-a(float):numerator 
-b(float):denominator 
-result =safe_divide(numerator, denominator)
- def safe_divide(a,b)
-  if b == 0
-  return None
-  return a / b
+    numerator = sys.argv[1]
+    denominator = sys.argv[2]
 
-
+    result = safe_divide(numerator, denominator)
+    print(result)
 #Test division with non-zero
 result=safe_divide(12,2)
 print(f"The result of the division is{result}.") #Output:6.0
@@ -53,5 +50,5 @@ if result is None:
   print("Error: Division by zero.")
 else:
   
-if _name_ == "_main_"
+if __name__ == "_main_"
 main()
