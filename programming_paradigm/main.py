@@ -8,7 +8,8 @@ if len(sys.argv)!=3:
 a(float):numerator 
 b(float):denominator 
 result =safe_divide(numerator, denominator)
-File"
+File"programming_paradigm/robust_division_calculator.py"
+try:
  def safe_divide(a,b)
   if b == 0
   return None
@@ -16,10 +17,6 @@ File"
    #Test division with non-zero
 result=safe_divide(12,2)
 print(f"The result of the division is{result}.") #Output:6.0
-
-if result is None:
-  print("Error: Division by zero.")
-else:
   
 if _name_ == "_main_"
 main()
