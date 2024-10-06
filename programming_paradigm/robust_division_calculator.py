@@ -31,6 +31,10 @@ class RobustDivisionCalculator:
 
 import sys
 from robust_division_calculator import safe_divide
+File "/tmp/correction/5186562018957576201599549524668669131877_5/100760/919400/programming_paradigm/robust_division_calculator.py", line 11
+    try:
+    ^
+SyntaxError: invalid syntax
 
 def main():
     if len(sys.argv) != 3:
