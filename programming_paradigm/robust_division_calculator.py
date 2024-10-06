@@ -34,12 +34,16 @@ import sys
 
 def main():
 if len(sys.argv)!=3:
-  print("Usage: python(programming_paradigm/robust_division_calculator.py)<numerator><denominator>")
   sys.exit(1)
 
-numerator = float(sys.argv[1])
-denominator = float(sys.argv[2])
+a(float):numerator 
+b(float):denominator 
 result =safe_divide(numerator, denominator)
+ def safe_divide(a,b)
+  if b == 0
+  return None
+  return a / b
+
 
 #Test division with non-zero
 result=safe_divide(12,2)
