@@ -12,6 +12,16 @@ result =safe_divide(numerator, denominator)
   if b == 0
   return None
   return a / b
+   #Test division with non-zero
+result=safe_divide(12,2)
+print(f"The result of the division is{result}.") #Output:6.0
+
+if result is None:
+  print("Error: Division by zero.")
+else:
+  
+if _name_ == "_main_"
+main()
 
 
 
