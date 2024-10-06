@@ -7,38 +7,44 @@ class BankAccount:
   """
  
     Intializes a BankAccount object.
-      Args:
+    
     def __init__(self.account_balance): The initial balance. Defaults to 0
-    """
+    
     self.account_balance = initial_balance
-   
+
+   #Deposit
   def deposit(self, amount):
-    """
-     Deposits a specific amount into the account.
+#while True:
+     """Deposits a specific amount into the account."""
+       try:
+         if amount > 0:
+           self.account_balance += amount
+           return True
+           
+       except ValueError as e:
+         print(f"Invalid Input {e}")
+         return False
        
-     Args:
-    amount (float): The amount to deposit.
-      """
-      self.account_balance += amount
+      
+    #Withdrawal
     def withdraw(self, amount):
-      """
-      Withdraws a specified amount from the account if sufficient funds exits.
+      """Withdraws a specified amount from the account if sufficient funds exits."""
       
      Args:
      amount(float): The amount to withdraw.
 
      Returns:
      bool: True if withdrawal is successful, False otherwise.
-     """
+     
       if amount>self.account_balance:
         return False
         self.account_balance -= amount
         return True
-
+#Display_balance
     def display_balance(self):
-      """
-      Prints the current account balance.
-      """
+      
+      """Prints the current account balance."""
+    
       print(f"Current Balance: ${self.acount_balance: 2f}")
       #Example usage:
     if _name_ == "_main_":
