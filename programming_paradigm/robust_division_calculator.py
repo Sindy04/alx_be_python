@@ -34,4 +34,16 @@ import sys
 
 def main():
 if len(sys.argv)!=3:
-  print("Usage: python(
+  print("Usage: python(programming_paradigm/robust_division_calculator.py)<numerator><denominator>")
+  sys.exit(1)
+
+numerator = float(sys.argv[1])
+denominator = float(sys.argv[2])
+result =safe_divide(numerator, denominator)
+if result is None:
+  print("Error: Division by zero.")
+else:
+  print(f"The result of the division is{result}.")
+
+if _name_ == "_main_"
+main()
