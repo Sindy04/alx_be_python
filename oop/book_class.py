@@ -1,5 +1,5 @@
 class Book:
-  def _init_(self, title, author, year):
+  def __init__(self, title, author, year):
     """
     Initializes a Book instance with title, author and year.
 
