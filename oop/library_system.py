@@ -70,7 +70,7 @@ class Library:
       book (Book or EBook or PrintBook): The book to add.
       """
       self.books.append(book)
-      def list_book(self):
+      def list_books(self):
         """
         Prints details of each book in the library.
         """
