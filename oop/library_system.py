@@ -65,4 +65,15 @@ class Library:
     def add_book(self,book):
       """
       Adds a Book, EBook, or PrintBook instance to the library.
+
+      Args:
+      book (Book or EBook or PrintBook): The book to add.
+      """
+      self.books.append(book)
+      def list_book(self):
+        """
+        Prints details of each book in the library.
+        """
+        for book in self.books:
+          print(book)
   
