@@ -14,11 +14,11 @@ class Book:
     self.author = author
     self.year = year
 
-def _del_(self):
+def __del__(self):
   """
   Prints "Deleting (title of the book)" upon object deletion.
   """
-  def _str_(self):
+  def __str__(self):
   """
   Returns a string in the format "(title) by (author), published in (year)".
 
@@ -27,7 +27,7 @@ def _del_(self):
   """
   return f"{self.title} by {self.author}, published in {self.year}"
 
-def _repr_(self):
+def __repr__(self):
   Returns a string that would recreate the Book instance.
 
     Returns:
