@@ -28,7 +28,7 @@ class EBook(Book):
     author (str): The author of the book.
     file_size (int): The file size of the eBook in KB.
     """
-    super()__init__(title,author)
+    super().__init__(title,author)
     self.file_size = file_size
 
 def __str__(self):
