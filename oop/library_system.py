@@ -49,4 +49,20 @@ class PrintBook(Book):
     title (str): The title of the book.
     author (str): The author of the book.
     page_count (int): The page count of the print book.
+    """
+    Returns a string representation of the PrintBook instance.
+      Returns:
+    str: A human-readable representation of the PrintBook instance.
+      """
+      return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
+
+class Library:
+  def __init__(self):
+    """
+    Initializes a Library instance with an empty list of books.
+    """
+    self.books = []
+    def add_book(self,book):
+      """
+      Adds a Book, EBook, or PrintBook instance to the library.
   
