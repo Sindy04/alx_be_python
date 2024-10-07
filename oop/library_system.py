@@ -18,7 +18,7 @@ def __str__(self):
   """
   return f"Book: {self.title} by {self.author}"
 
-class EBook(/Book):
+class EBook(Book):
   def __int__(self,title,author,file_size):
     """
     Initializes an EBook instance with title,author and file_size
