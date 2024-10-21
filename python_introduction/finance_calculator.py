@@ -1,3 +1,6 @@
+#User input for financial details
+  monthly income = input("Enter your monthly income:$")
+  monthly expenses = input("Enter your total monthly expenses: $")
                 
 def calculate_monthly_savings(monthly_income, monthly_expenses):
   return monthly_income - monthly_expenses
