@@ -8,8 +8,8 @@ def calculate_projected_annual_savings(monthly_savings):
 
 def main():
   #User input for financial details
-  monthly_income = input("Enter your monthly income:$")
-  monthly_expenses = input("Enter your total monthly expenses: $")
+  monthly income = input("Enter your monthly income:$")
+  monthly expenses = input("Enter your total monthly expenses: $")
 
 #Calculate monthly savings
 monthly_savings = calculate_monthly_saving(monthly_income, monthly_expenses)
