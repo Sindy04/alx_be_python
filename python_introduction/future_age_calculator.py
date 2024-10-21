@@ -7,7 +7,7 @@ print(years)
 #Addition of years
 Addition = Age + Additional
 print(Addition)
-input("How old are you")
+Age =input("How old are you")
 input("In 2025,you will be 57 years")
                 
 
