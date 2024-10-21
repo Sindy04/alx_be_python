@@ -13,7 +13,7 @@ def main():
   monthly_expenses = float(input("Enter your total monthly expenses: "))
 
 #Calculate monthly savings
-monthly_savings = calculate_monthly_saving(monthly_income, monthly_expenses)
+monthly_savings = (monthly_income- monthly_expenses|float(monthly_income)-float( monthly_expenses))
 
 #Calculate projected annual savings
 projected_annual_savings = calculate_projected_annual_savings(monthly_savings)
