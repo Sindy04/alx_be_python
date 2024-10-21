@@ -1,7 +1,4 @@
-#User input for financial details
-  monthly income = input("Enter your monthly income:$")
-  monthly expenses = input("Enter your total monthly expenses: $")
-                
+            
 def calculate_monthly_savings(monthly_income, monthly_expenses):
   return monthly_income - monthly_expenses
 
@@ -11,8 +8,19 @@ def calculate_projected_annual_savings(monthly_savings):
 
 def main():
   #User input for financial details
-  monthly income = input("Enter your monthly income:$")
-  monthly expenses = input("Enter your total monthly expenses: $")
+  monthly_income = input("Enter your monthly income:$")
+  monthly_xpenses = input("Enter your total monthly expenses: $")
 
 #Calculate monthly savings
 monthly_savings = calculate_monthly_saving(monthly_income, monthly_expenses)
+
+#Calculate projected annual savings
+projected_annual_savings = calculate_projected_annual_savings(monthly_savings)
+
+#output results
+print(f"Your monthly savings are: $ {monthly_savings:.2f}")
+print(f"Projected savings after one year, with interest, is: ${projected_annual_savings:.2f}")
+
+if _name_ == "_main_":
+  main()
+
