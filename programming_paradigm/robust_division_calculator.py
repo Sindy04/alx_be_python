@@ -18,7 +18,7 @@ try:
 except VaplueError:
   return "Error: Please enter numeric values only."
 except ZeroDivisionError:
-  return"Error: Cannot divide by zero."
+  print("Error: Cannot divide by zero.")
 except Exception as e:
   return f"An unexpected error occurred: {str(e)}"
 
