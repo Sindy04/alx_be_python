@@ -9,7 +9,7 @@ Subtraction = number1 - number2
 print(Subtraction)
 
 #calculate the product
-Product = number1 * number
+Product = number1 * number2
 print(Product)
 
 #outcome
