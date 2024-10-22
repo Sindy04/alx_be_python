@@ -51,7 +51,7 @@ result=safe_divide(12,2)
 print(f"The result of the division is{result}.") #Output:6.0
 
 if result is None:
-  print("Error: Division by zero.")
+  print("Error: Cannot divide by zero.")
 else:
   
 if __name__ == "_main_"
