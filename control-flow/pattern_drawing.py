@@ -19,6 +19,8 @@ def main():
       expect ValueError:
       print("Invalid input. Please enter a positive integer.")
 
+print("*"*i)
+
 if _name_ == "_main_"
    main()
       
