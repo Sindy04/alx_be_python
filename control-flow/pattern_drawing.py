@@ -4,7 +4,7 @@ def draw_pattern(size):
   while row < size:
     for _ in range(size):
       print(",end+")
-    print()
+    print("*"*i)
     row += 1
 
 def main():
@@ -19,7 +19,6 @@ def main():
       expect ValueError:
       print("Invalid input. Please enter a positive integer.")
 
-print("*"*i)
 
 if _name_ == "_main_"
    main()
