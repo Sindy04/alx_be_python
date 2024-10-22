@@ -12,7 +12,7 @@ command, params = sys.argv[1].split(':')
 amount = float(paramas[0]) if params else None
 if command == "deposit" and amount is not None:
   account.depoit(amount)
-  print(f"Deposited: {amount:.2f}")
+ print(f"Deposited:${amount:.1f}")
 elif command == "withdraw" and amount is not None:
   if account.withdraw(amount):
     print(f"Withdraw: {amount:.2f}")
