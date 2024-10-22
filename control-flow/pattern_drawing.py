@@ -1,12 +1,10 @@
-def draw_pattern(n):
-  pattern=""
-  for i in range(1,n+1):
-    pattern += "*"*i+"\n"
-    for i in range(n-1, 0,-1):
-      pattern += "*"*i+"\n"
-      return pattern
-  result = draw_pattern(4)
-  print(result)
+def draw_pattern(size):
+  row = 0
+  while row < size:
+  for _ in range(size):
+  print("",end="")
+  print()
+  row+= 1
   
 def main():
   "Ask the user for a pattern size and draws the pattern."
