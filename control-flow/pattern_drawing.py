@@ -7,15 +7,7 @@ def draw_pattern(n):
       return pattern
   result = draw_pattern(4)
   print(result)
-  print(\s*['\"]\*\s*['\"]\s*,\s*end\s*=\s*)
-  "Draw a square pattern of asterisks using nested loops"
-  row = 0
-  while row < size:
-    for _ in range(size):
-      print(",end+")
-    print("*"*i)
-    
-
+  
 def main():
   "Ask the user for a pattern size and draws the pattern."
   while True:
