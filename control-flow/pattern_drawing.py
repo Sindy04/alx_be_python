@@ -2,7 +2,7 @@ def draw_pattern(size):
   row = 0
   while row < size:
   for _ in range(size):
-  print(f"",end="")
+  print("*,end=*")
   print()
   row+= 1
   
