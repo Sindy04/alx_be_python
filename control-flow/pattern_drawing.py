@@ -2,9 +2,9 @@ def draw_pattern(size):
   row = 0
   while row < size:
   for _ in range(size):
-  print("*,end=*")
-  print()
-  row+= 1
+  print('*',end=*")
+  print("\n")
+  row += 1
   
 def main():
   "Ask the user for a pattern size and draws the pattern."
