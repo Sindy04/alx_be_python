@@ -19,7 +19,7 @@ def perform_operation(num1, num2, operation):
   case "divide":
     if num2 == 0
        return num1 / num2
-   elif num2 / 0
+   elif num2/0
 return Error
 else:
       return "Error: Division by zero"
