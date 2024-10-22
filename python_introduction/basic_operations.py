@@ -12,11 +12,6 @@ print(Subtraction)
 Product = number1 * number2
 print(Product)
 
-#outcome
-Addition = input("Addition of 10 and 5 is 15")
-Subtraction - input("Subtraction of 10 and 5 is 5")
-Multiplication = input("Multiplication of 10 and 5 is 50")
-
 print(f"Addition of 10 and 5 is 15")
 print(f"Subtraction of 10 and 5 is 5")
 print(f"Multiplication of 10 and 5 is 50")
