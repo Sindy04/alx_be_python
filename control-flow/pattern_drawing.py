@@ -1,11 +1,19 @@
-def draw_pattern(size):
+def draw_pattern(n):
+  pattern=""
+  for i in range(1,n+1):
+    pattern += "*"*i+"\n"
+    for i in range(n-1, 0,-1):
+      pattern += "*"*i+"\n"
+      return pattern
+  result = draw_pattern(4)
+  print(result)
   "Draw a square pattern of asterisks using nested loops"
   row = 0
   while row < size:
     for _ in range(size):
       print(",end+")
     print("*"*i)
-    row += 1
+    
 
 def main():
   "Ask the user for a pattern size and draws the pattern."
