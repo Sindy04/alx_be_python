@@ -6,7 +6,6 @@ class BankAccount:
 def deposit(self, ammount):
    self._account_balance += amount
   print(f"Deposited:${amount:.1f}")
- if amount > 0:
   
 
 #Withdrawal Method
