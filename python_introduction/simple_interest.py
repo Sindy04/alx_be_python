@@ -6,5 +6,4 @@ time = 3
 Interest = principal * rate * time
 Interest = 1000 * 0.05 * 3
 print(Interest)
-
-The simple interest is 150.0
+print(f"The simple interest is 150.0")
